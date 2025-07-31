@@ -1,0 +1,57 @@
+Axioms
+
+Validity Propagation:
+@(A1) ∀t ∈ FiniteTime, validCur → (valid ∧ ready) ∨ ¬valid@
+(A valid current state implies either validity+readiness or invalidity within finite time.)
+
+Payload Invariance:
+@(A2) valid → payload unchanged@
+(Validity ensures payload stability until consumption.)
+
+Backpressure Constraint:
+@(A3) consumer.ready ⇏ producer.valid@
+(Readiness of consumer does not directly enforce producer validity.)
+
+Transaction Atomicity:
+@(A4) (valid ∧ ready) → producer.payload = consumer.payload@
+(Handshake ensures payload transfer.)
+
+Graphical Model
+
+Let system G = (V, E) where:
+
+V: Set of modules (vertices).
+E: Set of channels (directed edges).
+
+Deadlock Condition:
+A subset D ⊆ V is in deadlock iff:
+
+All modules in D are stalled due to a resource dependency cycle:
+M₁ → M₂ → ... → Mₖ → M₁, where each Mᵢ waits for Mᵢ₊₁ to free its buffer.
+Proof by Contradiction
+
+Assumption: Deadlock is possible in D.
+
+Dependency Cycle:
+For each Mᵢ ∈ D:
+
+Mᵢ stalls because its output channel Cᵢ.ready = false (A1).
+By A4, Mᵢ₊₁ must have a full buffer (unable to forward data via Cᵢ₊₁).
+
+Buffer Saturation:
+Inductively, all buffers in D must be simultaneously full to sustain the cycle.
+
+Contradiction via A3:
+
+A3 enforces that no module can indefinitely block its producer (consumer.ready ⇏ producer.valid).
+Thus, at least one module in D must have a non-full buffer (violating the all-buffers-full condition).
+
+Conclusion:
+Deadlock requires an impossible global state.
+∴ G is deadlock-free if A1–A4 hold and every cycle includes a buffered module.
+
+Key Insight
+
+The "backpressure asymmetry" (A3) breaks cyclic dependencies by ensuring no module can propagate stalling infinitely. Buffering (elasticity) guarantees progress.
+
+(QED)
