@@ -1,0 +1,283 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2960" height="894" viewBox="0 0 2960 894" font-family="Segoe UI, Arial, sans-serif">
+  <g id="IO_issue">
+    <rect x="80" y="80" width="180" height="56" fill="white" stroke="black"/>
+    <text x="170.0" y="102" text-anchor="middle" font-size="14">issueIn</text>
+    <text x="170.0" y="118" text-anchor="middle" font-size="14">IssuePacket</text>
+  </g>
+  <g id="IO_boot">
+    <rect x="80" y="268" width="180" height="56" fill="white" stroke="black"/>
+    <text x="170.0" y="290" text-anchor="middle" font-size="14">bootAddr</text>
+    <text x="170.0" y="306" text-anchor="middle" font-size="14">Boot</text>
+  </g>
+  <g id="IO_irq">
+    <rect x="80" y="456" width="180" height="56" fill="white" stroke="black"/>
+    <text x="170.0" y="478" text-anchor="middle" font-size="14">interrupt</text>
+    <text x="170.0" y="494" text-anchor="middle" font-size="14">Interrupt</text>
+  </g>
+  <g id="Decoder">
+    <rect x="400" y="80" width="180" height="56" fill="white" stroke="black"/>
+    <text x="490.0" y="102" text-anchor="middle" font-size="14">Decoder</text>
+  </g>
+  <g id="Renamer">
+    <rect x="720" y="80" width="180" height="56" fill="white" stroke="black"/>
+    <text x="810.0" y="102" text-anchor="middle" font-size="14">Renamer</text>
+  </g>
+  <g id="RS">
+    <rect x="1040" y="80" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1130.0" y="102" text-anchor="middle" font-size="14">ReservationStation</text>
+  </g>
+  <g id="Dispatcher">
+    <rect x="1360" y="80" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1450.0" y="102" text-anchor="middle" font-size="14">Dispatcher</text>
+  </g>
+  <g id="ALU">
+    <rect x="1680" y="174" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1770.0" y="196" text-anchor="middle" font-size="14">ALU</text>
+  </g>
+  <g id="BitALU">
+    <rect x="1680" y="268" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1770.0" y="290" text-anchor="middle" font-size="14">BitALU</text>
+  </g>
+  <g id="MUL">
+    <rect x="1680" y="362" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1770.0" y="384" text-anchor="middle" font-size="14">Multiplier</text>
+  </g>
+  <g id="DIV">
+    <rect x="1680" y="456" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1770.0" y="478" text-anchor="middle" font-size="14">DIV</text>
+  </g>
+  <g id="BRU">
+    <rect x="1680" y="550" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1770.0" y="572" text-anchor="middle" font-size="14">BranchUnit</text>
+  </g>
+  <g id="CSR">
+    <rect x="1680" y="644" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1770.0" y="666" text-anchor="middle" font-size="14">CSR</text>
+  </g>
+  <g id="WBR">
+    <rect x="2000" y="268" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2090.0" y="290" text-anchor="middle" font-size="14">WritebackRouter</text>
+  </g>
+  <g id="Commit">
+    <rect x="2320" y="362" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2410.0" y="384" text-anchor="middle" font-size="14">CommitUnit</text>
+  </g>
+  <g id="RF">
+    <rect x="2320" y="456" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2410.0" y="478" text-anchor="middle" font-size="14">RegisterFile</text>
+  </g>
+  <g id="VGPR">
+    <rect x="2320" y="550" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2410.0" y="572" text-anchor="middle" font-size="14">VirtualGPR</text>
+  </g>
+  <g id="IRQ">
+    <rect x="2320" y="644" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2410.0" y="666" text-anchor="middle" font-size="14">InterruptCtrl</text>
+  </g>
+  <g id="LSQ">
+    <rect x="2000" y="174" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2090.0" y="196" text-anchor="middle" font-size="14">LSQ</text>
+  </g>
+  <g id="LSU">
+    <rect x="2000" y="550" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2090.0" y="572" text-anchor="middle" font-size="14">LSU</text>
+  </g>
+  <g id="SB">
+    <rect x="2000" y="644" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2090.0" y="666" text-anchor="middle" font-size="14">StoreBuffer</text>
+  </g>
+  <g id="MemArb">
+    <rect x="2320" y="550" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2410.0" y="572" text-anchor="middle" font-size="14">LoadFirstMemArb</text>
+  </g>
+  <g id="RedirSel">
+    <rect x="2000" y="738" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2090.0" y="760" text-anchor="middle" font-size="14">RedirectUnit</text>
+  </g>
+  <g id="RedirQ">
+    <rect x="2320" y="738" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2410.0" y="760" text-anchor="middle" font-size="14">Queue[Redirect]</text>
+    <text x="2410.0" y="776" text-anchor="middle" font-size="14">(pipe=false, flow=false)</text>
+  </g>
+  <g id="IO_redir">
+    <rect x="2640" y="738" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2730.0" y="760" text-anchor="middle" font-size="14">redirectOut</text>
+    <text x="2730.0" y="776" text-anchor="middle" font-size="14">Redirect</text>
+  </g>
+  <g id="IO_edm">
+    <rect x="2640" y="550" width="180" height="56" fill="white" stroke="black"/>
+    <text x="2730.0" y="572" text-anchor="middle" font-size="14">edm</text>
+    <text x="2730.0" y="588" text-anchor="middle" font-size="14">ExternalDataMemoryInterface</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7"/>
+    </marker>
+  </defs>
+  <g>
+    <path d="M 260,108.0 L 330.0,108.0 L 330.0,108.0 L 400,108.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="334.0" y="98.0" font-size="12">IssuePacket</text>
+  </g>
+  <g>
+    <path d="M 580,108.0 L 650.0,108.0 L 650.0,108.0 L 720,108.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="654.0" y="98.0" font-size="12">Decoded</text>
+  </g>
+  <g>
+    <path d="M 900,108.0 L 970.0,108.0 L 970.0,108.0 L 1040,108.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="974.0" y="98.0" font-size="12">Decoded</text>
+  </g>
+  <g>
+    <path d="M 1220,108.0 L 1290.0,108.0 L 1290.0,108.0 L 1360,108.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1294.0" y="98.0" font-size="12">DispatchPacket</text>
+  </g>
+  <g>
+    <path d="M 1540,108.0 L 1610.0,108.0 L 1610.0,202.0 L 1680,202.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1614.0" y="145.0" font-size="12">ALUReq</text>
+  </g>
+  <g>
+    <path d="M 1540,108.0 L 1610.0,108.0 L 1610.0,296.0 L 1680,296.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1614.0" y="192.0" font-size="12">BitALUReq</text>
+  </g>
+  <g>
+    <path d="M 1540,108.0 L 1610.0,108.0 L 1610.0,390.0 L 1680,390.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1614.0" y="239.0" font-size="12">MultiplierReq</text>
+  </g>
+  <g>
+    <path d="M 1540,108.0 L 1610.0,108.0 L 1610.0,484.0 L 1680,484.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1614.0" y="286.0" font-size="12">DIVReq</text>
+  </g>
+  <g>
+    <path d="M 1540,108.0 L 1610.0,108.0 L 1610.0,672.0 L 1680,672.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1614.0" y="380.0" font-size="12">CSRReq</text>
+  </g>
+  <g>
+    <path d="M 1540,108.0 L 1610.0,108.0 L 1610.0,578.0 L 1680,578.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1614.0" y="333.0" font-size="12">BranchReq</text>
+  </g>
+  <g>
+    <path d="M 1540,108.0 L 1770.0,108.0 L 1770.0,202.0 L 2000,202.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1774.0" y="145.0" font-size="12">LSUReq</text>
+  </g>
+  <g>
+    <path d="M 2180,202.0 L 2090.0,202.0 L 2090.0,578.0 L 2000,578.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2094.0" y="380.0" font-size="12">Load</text>
+  </g>
+  <g>
+    <path d="M 2180,202.0 L 2090.0,202.0 L 2090.0,672.0 L 2000,672.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2094.0" y="427.0" font-size="12">Store</text>
+  </g>
+  <g>
+    <path d="M 2180,578.0 L 2250.0,578.0 L 2250.0,578.0 L 2320,578.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2254.0" y="568.0" font-size="12">EDM.req</text>
+  </g>
+  <g>
+    <path d="M 2500,578.0 L 2250.0,578.0 L 2250.0,578.0 L 2000,578.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2254.0" y="568.0" font-size="12">EDM.resp</text>
+  </g>
+  <g>
+    <path d="M 2180,672.0 L 2250.0,672.0 L 2250.0,578.0 L 2320,578.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2254.0" y="615.0" font-size="12">EDMRequest</text>
+  </g>
+  <g>
+    <path d="M 2500,578.0 L 2250.0,578.0 L 2250.0,672.0 L 2000,672.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2254.0" y="615.0" font-size="12">sbResp</text>
+  </g>
+  <g>
+    <path d="M 2500,578.0 L 2570.0,578.0 L 2570.0,578.0 L 2640,578.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2574.0" y="568.0" font-size="12">ExternalDataMemoryInterface</text>
+  </g>
+  <g>
+    <path d="M 2180,578.0 L 2090.0,578.0 L 2090.0,672.0 L 2000,672.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2094.0" y="615.0" font-size="12">sbFwd.query</text>
+  </g>
+  <g>
+    <path d="M 2180,672.0 L 2090.0,672.0 L 2090.0,578.0 L 2000,578.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2094.0" y="615.0" font-size="12">sbFwd</text>
+  </g>
+  <g>
+    <path d="M 1860,202.0 L 1930.0,202.0 L 1930.0,296.0 L 2000,296.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1934.0" y="239.0" font-size="12">WriteDataBundle</text>
+  </g>
+  <g>
+    <path d="M 1860,296.0 L 1930.0,296.0 L 1930.0,296.0 L 2000,296.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1934.0" y="286.0" font-size="12">WriteDataBundle</text>
+  </g>
+  <g>
+    <path d="M 1860,390.0 L 1930.0,390.0 L 1930.0,296.0 L 2000,296.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1934.0" y="333.0" font-size="12">WriteDataBundle</text>
+  </g>
+  <g>
+    <path d="M 1860,484.0 L 1930.0,484.0 L 1930.0,296.0 L 2000,296.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1934.0" y="380.0" font-size="12">WriteDataBundle</text>
+  </g>
+  <g>
+    <path d="M 2180,578.0 L 2090.0,578.0 L 2090.0,296.0 L 2000,296.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2094.0" y="427.0" font-size="12">WriteDataBundle</text>
+  </g>
+  <g>
+    <path d="M 1860,672.0 L 1930.0,672.0 L 1930.0,296.0 L 2000,296.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1934.0" y="474.0" font-size="12">WriteDataBundle</text>
+  </g>
+  <g>
+    <path d="M 2180,296.0 L 1610.0,296.0 L 1610.0,108.0 L 1040,108.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1614.0" y="192.0" font-size="12">WakeBus</text>
+  </g>
+  <g>
+    <path d="M 2180,296.0 L 2250.0,296.0 L 2250.0,390.0 L 2320,390.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2254.0" y="333.0" font-size="12">RegWrite</text>
+  </g>
+  <g>
+    <path d="M 2500,390.0 L 2410.0,390.0 L 2410.0,484.0 L 2320,484.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2414.0" y="427.0" font-size="12">RegWrite</text>
+  </g>
+  <g>
+    <path d="M 2500,390.0 L 2410.0,390.0 L 2410.0,578.0 L 2320,578.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2414.0" y="474.0" font-size="12">RegWrite</text>
+  </g>
+  <g>
+    <path d="M 2180,296.0 L 2250.0,296.0 L 2250.0,578.0 L 2320,578.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2254.0" y="427.0" font-size="12">PubBus</text>
+  </g>
+  <g>
+    <path d="M 2500,484.0 L 1770.0,484.0 L 1770.0,108.0 L 1040,108.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1774.0" y="286.0" font-size="12">GprRead</text>
+  </g>
+  <g>
+    <path d="M 2500,672.0 L 2410.0,672.0 L 2410.0,390.0 L 2320,390.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2414.0" y="521.0" font-size="12">Irq</text>
+  </g>
+  <g>
+    <path d="M 900,108.0 L 1610.0,108.0 L 1610.0,578.0 L 2320,578.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1614.0" y="333.0" font-size="12">Alloc</text>
+  </g>
+  <g>
+    <path d="M 1860,578.0 L 1930.0,578.0 L 1930.0,766.0 L 2000,766.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1934.0" y="662.0" font-size="12">Redirect</text>
+  </g>
+  <g>
+    <path d="M 2500,390.0 L 2250.0,390.0 L 2250.0,766.0 L 2000,766.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2254.0" y="568.0" font-size="12">Redirect</text>
+  </g>
+  <g>
+    <path d="M 1860,672.0 L 1930.0,672.0 L 1930.0,766.0 L 2000,766.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1934.0" y="709.0" font-size="12">Redirect</text>
+  </g>
+  <g>
+    <path d="M 2180,766.0 L 2250.0,766.0 L 2250.0,766.0 L 2320,766.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2254.0" y="756.0" font-size="12">Redirect</text>
+  </g>
+  <g>
+    <path d="M 2500,766.0 L 2570.0,766.0 L 2570.0,766.0 L 2640,766.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="2574.0" y="756.0" font-size="12">Redirect</text>
+  </g>
+  <g>
+    <path d="M 260,296.0 L 970.0,296.0 L 970.0,672.0 L 1680,672.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="974.0" y="474.0" font-size="12">Boot</text>
+  </g>
+  <g>
+    <path d="M 260,484.0 L 970.0,484.0 L 970.0,672.0 L 1680,672.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="974.0" y="568.0" font-size="12">Interrupt</text>
+  </g>
+  <text x="80" y="40" font-size="18" font-weight="bold">Backend Dataflow (Aligned Grid, Orthogonal Connectors, Types Only)</text>
+</svg>
