@@ -1,0 +1,232 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2440" height="752" viewBox="0 0 2440 752" font-family="Segoe UI, Arial, sans-serif">
+  <g>
+    <rect x="1324" y="28" width="212" height="584" rx="10" ry="10" fill="none" stroke="#999" stroke-dasharray="6 4"/>
+    <text x="1340" y="44" font-size="14" fill="#555">Execution Units</text>
+  </g>
+  <g>
+    <rect x="1644" y="28" width="212" height="392" rx="10" ry="10" fill="none" stroke="#999" stroke-dasharray="6 4"/>
+    <text x="1660" y="44" font-size="14" fill="#555">Memory Subsystem</text>
+  </g>
+  <g id="IF">
+    <rect x="60" y="60" width="180" height="56" fill="white" stroke="black"/>
+    <text x="150.0" y="82" text-anchor="middle" font-size="14">Frontend.issueIn</text>
+    <text x="150.0" y="98" text-anchor="middle" font-size="14">IssuePacket</text>
+  </g>
+  <g id="DEC">
+    <rect x="380" y="60" width="180" height="56" fill="white" stroke="black"/>
+    <text x="470.0" y="82" text-anchor="middle" font-size="14">Decoder</text>
+  </g>
+  <g id="REN">
+    <rect x="700" y="60" width="180" height="56" fill="white" stroke="black"/>
+    <text x="790.0" y="82" text-anchor="middle" font-size="14">Renamer</text>
+  </g>
+  <g id="RS">
+    <rect x="1020" y="60" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1110.0" y="82" text-anchor="middle" font-size="14">ReservationStation</text>
+  </g>
+  <g id="VGPR">
+    <rect x="1020" y="156" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1110.0" y="178" text-anchor="middle" font-size="14">VirtualGPR</text>
+  </g>
+  <g id="GPR">
+    <rect x="1020" y="252" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1110.0" y="274" text-anchor="middle" font-size="14">RegisterFile</text>
+  </g>
+  <g id="COM">
+    <rect x="1020" y="348" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1110.0" y="370" text-anchor="middle" font-size="14">CommitUnit</text>
+  </g>
+  <g id="WBR">
+    <rect x="1020" y="444" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1110.0" y="466" text-anchor="middle" font-size="14">WritebackRouter</text>
+  </g>
+  <g id="RDU">
+    <rect x="1020" y="540" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1110.0" y="562" text-anchor="middle" font-size="14">RedirectUnit</text>
+  </g>
+  <g id="GE">
+    <rect x="1020" y="636" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1110.0" y="658" text-anchor="middle" font-size="14">GlobalEpochCtrl</text>
+  </g>
+  <g id="DISP">
+    <rect x="1340" y="60" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1430.0" y="82" text-anchor="middle" font-size="14">Dispatcher</text>
+  </g>
+  <g id="ALU">
+    <rect x="1340" y="156" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1430.0" y="178" text-anchor="middle" font-size="14">ALU</text>
+  </g>
+  <g id="BRU">
+    <rect x="1340" y="252" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1430.0" y="274" text-anchor="middle" font-size="14">BranchUnit</text>
+  </g>
+  <g id="MUL">
+    <rect x="1340" y="348" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1430.0" y="370" text-anchor="middle" font-size="14">MUL</text>
+  </g>
+  <g id="DIV">
+    <rect x="1340" y="444" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1430.0" y="466" text-anchor="middle" font-size="14">DIV</text>
+  </g>
+  <g id="LSU">
+    <rect x="1340" y="540" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1430.0" y="562" text-anchor="middle" font-size="14">LSU</text>
+  </g>
+  <g id="LSQ">
+    <rect x="1660" y="60" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1750.0" y="82" text-anchor="middle" font-size="14">LSQ : MemQueue</text>
+  </g>
+  <g id="SB">
+    <rect x="1660" y="156" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1750.0" y="178" text-anchor="middle" font-size="14">StoreBuffer</text>
+  </g>
+  <g id="ARB">
+    <rect x="1660" y="252" width="180" height="56" fill="white" stroke="black"/>
+    <text x="1750.0" y="274" text-anchor="middle" font-size="14">ARB</text>
+  </g>
+  <g id="MEM">
+    <ellipse cx="1750.0" cy="376.0" rx="90.0" ry="28.0" fill="white" stroke="black"/>
+    <text x="1750.0" y="370" text-anchor="middle" font-size="14">External Memory</text>
+  </g>
+  <g id="FE_RED">
+    <rect x="1980" y="60" width="180" height="56" fill="white" stroke="black" stroke-width="1.5"/>
+    <rect x="1986" y="66" width="168" height="44" fill="none" stroke="black" stroke-dasharray="4 3"/>
+    <text x="2070.0" y="82" text-anchor="middle" font-size="14">To Frontend</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7"/>
+    </marker>
+  </defs>
+  <g>
+    <path d="M 240,88.0 L 310.0,88.0 L 310.0,88.0 L 380,88.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+  </g>
+  <g>
+    <path d="M 560,88.0 L 630.0,88.0 L 630.0,88.0 L 700,88.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+  </g>
+  <g>
+    <path d="M 880,88.0 L 950.0,88.0 L 950.0,88.0 L 1020,88.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="954.0" y="78.0" font-size="12">DispatchPkt</text>
+  </g>
+  <g>
+    <path d="M 1200,88.0 L 1270.0,88.0 L 1270.0,88.0 L 1340,88.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1274.0" y="78.0" font-size="12">DispatchPkt</text>
+  </g>
+  <g>
+    <path d="M 1520,88.0 L 1430.0,88.0 L 1430.0,184.0 L 1340,184.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+  </g>
+  <g>
+    <path d="M 1520,88.0 L 1430.0,88.0 L 1430.0,280.0 L 1340,280.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+  </g>
+  <g>
+    <path d="M 1520,88.0 L 1430.0,88.0 L 1430.0,376.0 L 1340,376.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+  </g>
+  <g>
+    <path d="M 1520,88.0 L 1430.0,88.0 L 1430.0,472.0 L 1340,472.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+  </g>
+  <g>
+    <path d="M 1520,88.0 L 1430.0,88.0 L 1430.0,568.0 L 1340,568.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+  </g>
+  <g>
+    <path d="M 1520,184.0 L 1270.0,184.0 L 1270.0,472.0 L 1020,472.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1274.0" y="318.0" font-size="12">WbResp</text>
+  </g>
+  <g>
+    <path d="M 1520,376.0 L 1270.0,376.0 L 1270.0,472.0 L 1020,472.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1274.0" y="414.0" font-size="12">WbResp</text>
+  </g>
+  <g>
+    <path d="M 1520,472.0 L 1270.0,472.0 L 1270.0,472.0 L 1020,472.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1274.0" y="462.0" font-size="12">WbResp</text>
+  </g>
+  <g>
+    <path d="M 1520,568.0 L 1270.0,568.0 L 1270.0,472.0 L 1020,472.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1274.0" y="510.0" font-size="12">WbResp</text>
+  </g>
+  <g>
+    <path d="M 1520,280.0 L 1270.0,280.0 L 1270.0,472.0 L 1020,472.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1274.0" y="366.0" font-size="12">WbResp</text>
+  </g>
+  <g>
+    <path d="M 1200,472.0 L 1110.0,472.0 L 1110.0,88.0 L 1020,88.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1114.0" y="270.0" font-size="12">WakeBus</text>
+  </g>
+  <g>
+    <path d="M 1200,472.0 L 1110.0,472.0 L 1110.0,184.0 L 1020,184.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1114.0" y="318.0" font-size="12">PubBus</text>
+  </g>
+  <g>
+    <path d="M 1200,472.0 L 1110.0,472.0 L 1110.0,376.0 L 1020,376.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1114.0" y="414.0" font-size="12">RegWrite</text>
+  </g>
+  <g>
+    <path d="M 1200,376.0 L 1110.0,376.0 L 1110.0,280.0 L 1020,280.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1114.0" y="318.0" font-size="12">RegWrite</text>
+  </g>
+  <g>
+    <path d="M 1200,376.0 L 1110.0,376.0 L 1110.0,184.0 L 1020,184.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1114.0" y="270.0" font-size="12">RegWrite</text>
+  </g>
+  <g>
+    <path d="M 1200,88.0 L 1110.0,88.0 L 1110.0,184.0 L 1020,184.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1114.0" y="126.0" font-size="12">TagReq</text>
+  </g>
+  <g>
+    <path d="M 1200,184.0 L 1110.0,184.0 L 1110.0,88.0 L 1020,88.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1114.0" y="126.0" font-size="12">lookupResp</text>
+  </g>
+  <g>
+    <path d="M 1200,88.0 L 1110.0,88.0 L 1110.0,280.0 L 1020,280.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1114.0" y="174.0" font-size="12">GprReadReq</text>
+  </g>
+  <g>
+    <path d="M 1200,280.0 L 1110.0,280.0 L 1110.0,88.0 L 1020,88.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1114.0" y="174.0" font-size="12">GprReadData</text>
+  </g>
+  <g>
+    <path d="M 1520,280.0 L 1270.0,280.0 L 1270.0,568.0 L 1020,568.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1274.0" y="414.0" font-size="12">Redirect</text>
+  </g>
+  <g>
+    <path d="M 1200,376.0 L 1110.0,376.0 L 1110.0,568.0 L 1020,568.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1114.0" y="462.0" font-size="12">Redirect</text>
+  </g>
+  <g>
+    <path d="M 1200,568.0 L 1590.0,568.0 L 1590.0,88.0 L 1980,88.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1594.0" y="318.0" font-size="12">Redirect</text>
+  </g>
+  <g>
+    <path d="M 1200,88.0 L 1430.0,88.0 L 1430.0,88.0 L 1660,88.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1434.0" y="78.0" font-size="12">mem issue</text>
+  </g>
+  <g>
+    <path d="M 1840,88.0 L 1590.0,88.0 L 1590.0,568.0 L 1340,568.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1594.0" y="318.0" font-size="12">LdIssue</text>
+  </g>
+  <g>
+    <path d="M 1840,88.0 L 1750.0,88.0 L 1750.0,184.0 L 1660,184.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1754.0" y="126.0" font-size="12">StIssue</text>
+  </g>
+  <g>
+    <path d="M 1840,184.0 L 1590.0,184.0 L 1590.0,568.0 L 1340,568.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1594.0" y="366.0" font-size="12">fwd</text>
+  </g>
+  <g>
+    <path d="M 1520,568.0 L 1590.0,568.0 L 1590.0,280.0 L 1660,280.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1594.0" y="414.0" font-size="12">MemReq</text>
+  </g>
+  <g>
+    <path d="M 1840,184.0 L 1750.0,184.0 L 1750.0,280.0 L 1660,280.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1754.0" y="222.0" font-size="12">MemReq</text>
+  </g>
+  <g>
+    <path d="M 1840,280.0 L 1750.0,280.0 L 1750.0,376.0 L 1660,376.0" fill="none" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1754.0" y="318.0" font-size="12">ExtMemIf</text>
+  </g>
+  <g>
+    <line x1="1200" y1="664.0" x2="1380" y2="664.0" stroke="black" marker-end="url(#arrow)"/>
+    <text x="1290.0" y="654.0" font-size="12">epochOut</text>
+  </g>
+  <text x="60" y="28" font-size="18" font-weight="bold">Klase32 Dataflow (Grid + Orthogonal Connectors)</text>
+</svg>
